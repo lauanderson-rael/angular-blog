@@ -1,19 +1,41 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
 
 <app-menu-title></app-menu-title>
 
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card></app-big-card>
+        <app-big-card 
+            id="1"
+            photoCover="https://e.rpp-noticias.io/xlarge/2023/12/04/361736_1509718.webp"
+            cardTitle="NOVO HOMEM DE FERRO EM 3D ANUNCIADO"
+            cardDescription="Marvel studios anuncia novo filme do homem de ferro para 2024"
+            >
+        </app-big-card>
+
     </div>
 
-    <div class="articles__others">
+
+    <div class="articles__others">  
+        <app-small-card 
+            id="2"
+            photoCard="https://cinepop.com.br/wp-content/uploads/2022/10/deadpool3.jpg"
+            cardTitle="Marvel investe pesado no novo filme do volverine 2024" 
+             >
+        </app-small-card>
+
+        <app-small-card 
+            id="3"
+            photoCard="https://s.aficionados.com.br/imagens/ordem-completa-dos-filmes-do-homem-aranha_f.jpg"
+            cardTitle="Ordem completa dos filmes do Homem-Aranha" 
+            >
+        </app-small-card>
+
+        <app-small-card 
+            id="4"
+            photoCard="https://i0.wp.com/profissaobiotec.com.br/wp-content/uploads/2017/04/XMEN-FACTS-INTRO.jpg?fit=660%2C350&ssl=1"
+            cardTitle="A genética por trás dos X-men" 
+            >
+        </app-small-card>
         
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
 
     </div> 
 </div>
